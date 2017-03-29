@@ -1,4 +1,6 @@
-# Participants
+# Connection Test
+
+## Participants
 
 1. Alexander Steen.
 2. Jonas Simonsen.
