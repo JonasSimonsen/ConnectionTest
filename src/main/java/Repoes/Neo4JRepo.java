@@ -21,8 +21,6 @@ import org.neo4j.driver.v1.StatementResult;
  */
 public class Neo4JRepo implements IRepo {
 
-    String name = "Jeanie Mountcastle";
-
     Driver driver = GraphDatabase.driver(
             "bolt://localhost:7687",
             AuthTokens.basic("neo4j", "class"));
@@ -92,6 +90,11 @@ public class Neo4JRepo implements IRepo {
         }
 
         return names;
+    }
+
+    @Override
+    public String getRepoName() {
+        return "Neo4J";
     }
 
 }

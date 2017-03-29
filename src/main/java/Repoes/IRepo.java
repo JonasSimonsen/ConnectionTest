@@ -13,6 +13,8 @@ import java.util.List;
  */
 public interface IRepo {
     
+    String getRepoName();
+    
     List<String> getAllNames();
 
     List<String> getPersonEndorsementsLevelOne(String name);
