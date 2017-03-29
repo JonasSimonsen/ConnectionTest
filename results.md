@@ -24,3 +24,6 @@ Avg: 663
 ## Neo4J
 269, 1191, 3086, 5611, 6174, 4400, 1589, 4085, 1900, 468, 5834, 6738, 1350, 344, 1318, 57208, 3397, 2178, 472, 1259 <br>
 Avg: 5443
+
+# Level Four - Level Five
+Both four and five took too long on Neo4J. For level four it took 2 minutes for one search and for level five it took 40 minutes for one search, so we didn't make the 20 random test cases
