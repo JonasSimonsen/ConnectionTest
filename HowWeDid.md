@@ -24,6 +24,10 @@ MATCH (f:Person {id: toInt(row.source_node_id)}), (t:Person {id:
 toInt(row.target_node_id)})
 CREATE (f)-[:ENDORSES]->(t);
 
+
+
+
+
 How we created MySQL database and loaded CVS file into the MySQL database:
 
 Run command: vagrant up
