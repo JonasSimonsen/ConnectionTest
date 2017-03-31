@@ -28,6 +28,7 @@ CREATE (f)-[:ENDORSES]->(t);
 
 
 
+
 How we created MySQL database and loaded CVS file into the MySQL database:
 
 Run command: vagrant up
